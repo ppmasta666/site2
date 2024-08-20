@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us for inquiries, bookings, and more.">
+    <meta name="keywords" content="Contact, Photography, Inquiry, Booking">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Photography Business - Contact</title>
+</head>
+<body>
+    <header>
+        <!-- Header content (same as in `index.html`) -->
+    </header>
+    
+    <main>
+        <section id="contact">
+            <h2 data-i18n="contact_heading">Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name" data-i18n="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email" data-i18n="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message" data-i18n="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" data-i18n="send_message">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content (same as in `index.html`) -->
+    </footer>
+</body>
+</html>
